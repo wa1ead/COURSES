@@ -1,5 +1,5 @@
 x=[5, 9, -6, 8, 1, 7, 3.4]
-print("list(x) = ", list(x))
+print("list(x) = ", list(x))  #SHOW THE LIST"x"
 
 print("len(x) = ", len(x))  #LENGHT OF THE LIST
 print("sum(x) = ", sum(x))  #SUM OF VALUES IN THE LIST
@@ -22,6 +22,7 @@ print("list(y) = ", list(y))
 print(x[slice(4)])  #CUT FROM INDEX 0 TO 4
 print(x[slice(2, 5)])  #CUT FROM INDEX 2 TO 5
 print(x[slice(1, 7, 2)])  #CUT FROM 1 TO 7 INCREASE BY 2 STEPS
+
 #------------------------------------------------------------------
 #CREATE A COPY OF "x" IN "y"
 y=x.copy()
@@ -53,4 +54,3 @@ print("list(x) = ", list(x))
 #CLEAR THE LIST
 x.clear()
 print("list(x) = ", list(x))
-
